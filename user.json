@@ -6,7 +6,7 @@
       {
         "fullName": "Owamamwen Ogunniyi",
         "major": "Applied Technology",
-        "description": "Web developement",
+        "description": "Web development",
         "term": "Winter",
         "courses": [
           "cse341"
@@ -47,6 +47,6 @@
     "country": "USA",
     "city": "Utah",
     "isPublic": true,
-    "faculty_name": "Web development"
+    "faculty_name": "Applied Technology"
   }
 }

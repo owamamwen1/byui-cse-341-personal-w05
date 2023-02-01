@@ -1,14 +1,14 @@
 // LOCALHOST 
 
-### GET all contacts 
+### GET all users 
 
 GET http://localhost:8080/user
 
-### GET contact by id 
+### GET user by id 
 
 GET http://localhost:8080/user/Luca
 
-### Create contact 
+### Create new user 
 
 POST  http://localhost:8080/user HTTP/1.1
 content-type: application/json
@@ -18,7 +18,7 @@ content-type: application/json
   "password": "Luca@12345"
 }
 
-### PUT contact 
+### PUT user 
 PUT http://localhost:8080/user/Luca HTTP/1.1
 content-type: application/json
 
@@ -78,23 +78,23 @@ content-type: application/json
 
 
 
-### DELETE User 
+### DELETE user 
 
 DELETE http://localhost:8080/user/Luca HTTP/1.1
 
 
 // PRODUCTION Deploy 
 
-### GET all contacts 
-GET https://cse341-personal-w05.onrender.com/user
+### GET all users 
+GET https://byui-cse-341-personal-w05.onrender.com/user
 
-### GET contact by id 
+### GET user by id 
 
-GET https://cse341-personal-w05.onrender.com/Luca
+GET https://byui-cse-341-personal-w05.onrender.com/Luca
 
-### Create contact 
+### Create new user 
 
-POST  https://cse341-personal-w05.onrender.com0/user HTTP/1.1
+POST  https://byui-cse-341-personal-w05.onrender.com/user HTTP/1.1
 content-type: application/json
 
 {
@@ -102,8 +102,8 @@ content-type: application/json
   "password": "Luca@12345"
 }
 
-### PUT contact 
-PUT https://cse341-personal-w05.onrender.com/Luca HTTP/1.1
+### PUT user 
+PUT https://byui-cse-341-personal-w05.onrender.com/Luca HTTP/1.1
 content-type: application/json
 
 {
@@ -114,7 +114,7 @@ content-type: application/json
       {
         "fullName": "Owamamwen Ogunniyi",
         "major": "Applied Technology",
-        "description": "Web developement",
+        "description": "Web development",
         "term": "Winter",
         "courses": [
           "cse341"
@@ -184,12 +184,12 @@ content-type: application/json
     "country": "USA",
     "city": "Utah",
     "isPublic": true,
-    "faculty_name": "Web development"
+    "faculty_name": "Applied Technology"
   }
 }
 
 
 
-### DELETE User 
+### DELETE user 
 
-DELETE https://cse341-personal-w05.onrender.com/Luca HTTP/1.1
+DELETE https://byui-cse-341-personal-w05.onrender.com/Luca HTTP/1.1
