@@ -124,6 +124,34 @@ content-type: application/json
         "branch": "Idaho",
         "city": "Idaho",
         "country": "USA"
+      },
+      {
+        "fullName": "Daniel Gerdes",
+        "major": "Applied Technology",
+        "description": "DataBase",
+        "term": "Winter",
+        "courses": [
+          "cse341"
+        ],
+        "dateStart": "04/01/2023",
+        "dateEnd": "04/04/2023",
+        "branch": "Idaho",
+        "city": "Idaho",
+        "country": "USA"
+      },
+       {
+        "fullName": "Aaron Quarshies",
+        "major": "Applied Technology",
+        "description": "Web & Programming",
+        "term": "Winter",
+        "courses": [
+          "cse341"
+        ],
+        "dateStart": "04/01/2023",
+        "dateEnd": "04/04/2023",
+        "branch": "Idaho",
+        "city": "Idaho",
+        "country": "USA"
       }
     ],
     "group": [
